@@ -9,9 +9,7 @@ const eventSchema = mongoose.Schema({
         type : Number, 
         default : 0
     },
-    date: {
-        type: date
-    },
+    date: Date,
     location : String, 
     genre : String,
     image : String
