@@ -3,6 +3,7 @@ import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import cors from 'cors';
 
+import eventsRoutes from './routes/events.js';
 
 const app = express(); 
 
