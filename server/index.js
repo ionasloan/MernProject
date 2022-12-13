@@ -6,6 +6,9 @@ import cors from 'cors';
 
 const app = express(); 
 
+//defines our route
+app.use('/events', eventsRoutes )
+
 // app.use(bodyParser.json({limit: "30mb, extended: true"}));
 // app.use(bodyParser.urlencoded({limit: "30mb, extended: true"}));
 app.use(express.urlencoded({extended: true}));
