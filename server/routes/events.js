@@ -8,5 +8,6 @@ const router = express.Router();
 
 // route to get our events listings
 router.get('/', getEvents);
+router.get('/', createEvent);
 
 export default router;
